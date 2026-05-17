@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="256x256" href="./assets/favicon.png">
+  <link rel="shortcut icon" href="./assets/favicon.ico">
+  <title>EDP | Founder-led enterprise technology studio</title>
+  <meta
+    name="description"
+    content="EDP is a founder-led enterprise technology studio continuing the legacy of EDP Consulting GmbH, established in Germany in 1998."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand-lockup">
+        <a class="brand" href="#top" aria-label="EDP home">
+          <img src="./assets/edp-logo.png" alt="EDP logo">
+          <div class="brand-copy">
+            <strong>EDP</strong>
+            <span id="brand-subtitle"></span>
+          </div>
+        </a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav"></nav>
+
+      <div class="header-tools">
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button type="button" class="lang-button" data-lang="en">EN</button>
+          <button type="button" class="lang-button" data-lang="de">DE</button>
+          <button type="button" class="lang-button" data-lang="zh">中文</button>
+        </div>
+        <a class="header-cta" href="#contact" id="header-cta"></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-section reveal">
+        <div class="hero-stage">
+          <div class="hero-copy-card">
+            <p class="section-kicker" id="hero-kicker"></p>
+            <h1 id="hero-title"></h1>
+            <p class="hero-body" id="hero-body"></p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#cases" id="hero-primary"></a>
+              <a class="button button-secondary" href="#company" id="hero-secondary"></a>
+            </div>
+          </div>
+
+          <div class="hero-rail">
+            <aside class="hero-spotlight">
+              <span class="spotlight-label" id="spotlight-label"></span>
+              <h2 id="spotlight-title"></h2>
+              <p id="spotlight-body"></p>
+              <a href="#platform" class="spotlight-link" id="spotlight-link"></a>
+            </aside>
+
+            <div class="hero-signal-stack">
+              <div class="hero-signal-card">
+                <span id="floating-top-label"></span>
+                <strong id="floating-top-title"></strong>
+              </div>
+
+              <div class="hero-signal-card">
+                <span id="floating-bottom-label"></span>
+                <strong id="floating-bottom-title"></strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-strip" id="stats-strip"></div>
+      </section>
+
+      <section id="platform" class="platform-section reveal">
+        <div class="section-intro">
+          <p class="section-kicker" id="platform-kicker"></p>
+          <h2 id="platform-title"></h2>
+          <p id="platform-body"></p>
+        </div>
+        <div class="platform-grid" id="platform-grid"></div>
+      </section>
+
+      <section id="services" class="capability-section reveal">
+        <div class="section-intro compact">
+          <p class="section-kicker" id="services-kicker"></p>
+          <h2 id="services-title"></h2>
+          <p id="services-body"></p>
+        </div>
+        <div class="capability-grid" id="services-grid"></div>
+      </section>
+
+      <section id="cases" class="cases-section reveal">
+        <div class="section-intro compact">
+          <p class="section-kicker" id="cases-kicker"></p>
+          <h2 id="cases-title"></h2>
+          <p id="cases-body"></p>
+        </div>
+        <div class="cases-grid" id="cases-grid"></div>
+      </section>
+
+      <section id="expertise" class="expertise-section reveal">
+        <div class="section-intro compact">
+          <p class="section-kicker" id="expertise-kicker"></p>
+          <h2 id="expertise-title"></h2>
+          <p id="expertise-body"></p>
+        </div>
+
+        <div class="expertise-panels">
+          <article class="expertise-panel">
+            <h3 id="capabilities-panel-title"></h3>
+            <div class="chip-cluster" id="capabilities-chips"></div>
+          </article>
+          <article class="expertise-panel">
+            <h3 id="industries-panel-title"></h3>
+            <div class="chip-cluster" id="industries-chips"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="company" class="company-section reveal">
+        <article class="company-story">
+          <p class="section-kicker" id="company-kicker"></p>
+          <h2 id="company-title"></h2>
+          <p id="company-paragraph-1"></p>
+          <p id="company-paragraph-2"></p>
+        </article>
+
+        <aside class="founder-panel">
+          <span class="founder-label" id="founder-label"></span>
+          <h3 id="founder-name"></h3>
+          <ul class="founder-list" id="founder-list"></ul>
+          <div class="cred-block" id="cred-block"></div>
+        </aside>
+      </section>
+
+      <section id="contact" class="contact-section reveal">
+        <div class="contact-copy">
+          <p class="section-kicker" id="contact-kicker"></p>
+          <h2 id="contact-title"></h2>
+          <p id="contact-body"></p>
+        </div>
+        <div class="contact-card">
+          <span class="contact-label" id="contact-card-label"></span>
+          <a href="mailto:philip.zhang@hotmail.de">philip.zhang@hotmail.de</a>
+          <a href="https://www.linkedin.com/in/philip-zhang-9a59007/" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+          <span id="contact-card-foot"></span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span id="footer-left"></span>
+      <span id="footer-right"></span>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
