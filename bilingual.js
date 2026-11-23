@@ -740,8 +740,8 @@ const translations = {
     "zh": "在开发 DragonERP 之前，Philip 长期从事 SAP 架构、系统迁移与企业转型，服务亚洲、澳洲和欧洲的大型企业。这些经验直接体现在 DragonERP 的账务设计、数据迁移和内控方式上。"
   },
   "xpRolesTitle": {
-    "en": "Selected roles",
-    "zh": "代表性职位"
+    "en": "Selected work",
+    "zh": "代表性工作"
   },
   "xpR0": {
     "en": "Business Unit Director: built the business unit and owned delivery, growth and service quality.",
@@ -758,10 +758,6 @@ const translations = {
   "xpR3": {
     "en": "Founded in 1998: SAP consulting, development services and analytical software.",
     "zh": "1998 年创立：SAP 咨询、开发服务与分析软件。"
-  },
-  "xpR4": {
-    "en": "Information technology studies.",
-    "zh": "德国达姆施塔特工业大学，信息技术专业学习。"
   },
   "xpProjectsTitle": {
     "en": "Selected projects",

@@ -258,7 +258,7 @@ t('xpTitle', 'Decades of enterprise IT.<br><em>Now built for smaller teams.</em>
 t('xpIntro',
   'Before DragonERP, Philip spent his career in SAP architecture, system migration and enterprise transformation for large organisations in Asia, Australia and Europe. That experience shapes how DragonERP handles ledgers, migration and control.',
   '在开发 DragonERP 之前，Philip 长期从事 SAP 架构、系统迁移与企业转型，服务亚洲、澳洲和欧洲的大型企业。这些经验直接体现在 DragonERP 的账务设计、数据迁移和内控方式上。')
-t('xpRolesTitle', 'Selected roles', '代表性职位')
+t('xpRolesTitle', 'Selected work', '代表性工作')
 roles = [
     ('xpR0', 'msg Global Solutions China', 'Business Unit Director: built the business unit and owned delivery, growth and service quality.',
      '业务单元总监：负责业务单元的建设、交付、增长与服务质量。'),
@@ -268,8 +268,6 @@ roles = [
      '首席解决方案架构师及顾问，参与多个全球项目与系统迁移。'),
     ('xpR3', 'EDP Consulting GmbH, Germany', 'Founded in 1998: SAP consulting, development services and analytical software.',
      '1998 年创立：SAP 咨询、开发服务与分析软件。'),
-    ('xpR4', 'TU Darmstadt, Germany', 'Information technology studies.',
-     '德国达姆施塔特工业大学，信息技术专业学习。'),
 ]
 role_items = ''
 for key, org, en, zh in roles:
