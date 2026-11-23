@@ -1,0 +1,50 @@
+<section class="wrap section order-section" id="order" aria-labelledby="order-title">
+  <div class="eyebrow"><span class="dot"></span><span data-i18n="orderEye"></span></div>
+  <div class="section-heading"><h2 id="order-title" data-i18n="orderTitle"></h2><p data-i18n="orderIntro"></p></div>
+  <div class="order-layout">
+    <form class="order-form" id="order-form" method="post" action="#order">
+      <fieldset><legend data-i18n="orderPlanLegend"></legend><div class="order-grid">
+        <label class="order-field"><span data-i18n="orderPlanLabel"></span><select name="plan" id="order-plan" required><option value="monthly" data-i18n="planMonthlyName"></option><option value="yearly" data-i18n="planYearlyName"></option><option value="buyout" data-i18n="planLicenceName"></option></select></label>
+        <label class="order-field"><span data-i18n="orderUsersLabel"></span><input name="users" id="order-users" type="number" min="1" max="50" step="1" value="5" required><small id="order-users-help"></small></label>
+      </div><div class="order-policy" aria-live="polite"><strong id="order-policy-title"></strong><p id="order-policy-body"></p></div></fieldset>
+      <fieldset><legend data-i18n="orderCompanyLegend"></legend><div class="order-grid">
+        <label class="order-field wide"><span data-i18n="orderCompanyLabel"></span><input name="company" maxlength="200" autocomplete="organization" required></label>
+        <label class="order-field"><span data-i18n="orderCountryLabel"></span><select name="country" required><option value="" data-i18n="orderChoose"></option><option value="AU" data-i18n="orderAU"></option><option value="NZ" data-i18n="orderNZ"></option><option value="other" data-i18n="orderOther"></option></select></label>
+        <label class="order-field"><span data-i18n="orderRegistrationLabel"></span><input name="registration" maxlength="50"></label>
+        <label class="order-field wide"><span data-i18n="orderAddressLabel"></span><textarea name="billing_address" rows="2" maxlength="500" autocomplete="street-address" required></textarea></label>
+      </div></fieldset>
+      <fieldset><legend data-i18n="orderOwnerLegend"></legend><div class="order-grid">
+        <label class="order-field"><span data-i18n="orderContactLabel"></span><input name="contact" maxlength="150" autocomplete="name" required></label>
+        <label class="order-field"><span data-i18n="orderOwnerNameLabel"></span><input name="owner_name" maxlength="150" required></label>
+        <label class="order-field"><span data-i18n="orderOwnerEmailLabel"></span><input name="owner_email" type="email" maxlength="200" autocomplete="email" required></label>
+        <label class="order-field"><span data-i18n="orderConfirmEmailLabel"></span><input name="confirm_email" type="email" maxlength="200" autocomplete="off" required></label>
+        <label class="order-field wide"><span data-i18n="orderBillingEmailLabel"></span><input name="billing_email" type="email" maxlength="200" required><small data-i18n="orderBillingEmailHelp"></small></label>
+      </div><p class="order-help" data-i18n="orderOwnerHelp"></p></fieldset>
+      <fieldset><legend data-i18n="orderSetupLegend"></legend><div class="order-grid">
+        <label class="order-field"><span data-i18n="orderScopeLabel"></span><select name="scope" required><option value="erp" data-i18n="orderFullERP"></option><option value="stock" data-i18n="orderStockOnly"></option></select></label>
+        <label class="order-field"><span data-i18n="orderLanguageLabel"></span><select name="system_language" required><option value="en">English</option><option value="zh">中文</option></select></label>
+        <label class="order-field"><span data-i18n="orderTimezoneLabel"></span><select name="timezone" required><option value="Australia/Sydney">Australia/Sydney</option><option value="Australia/Brisbane">Australia/Brisbane</option><option value="Australia/Adelaide">Australia/Adelaide</option><option value="Australia/Perth">Australia/Perth</option><option value="Pacific/Auckland">Pacific/Auckland</option><option value="UTC">UTC</option></select></label>
+        <label class="order-field" id="order-hosting-field"><span data-i18n="orderHostingLabel"></span><select name="hosting_region" required><option value="" data-i18n="orderChoose"></option><option value="AU" data-i18n="orderAU"></option><option value="NZ" data-i18n="orderNZ"></option></select><small data-i18n="orderHostingHelp"></small></label>
+        <label class="order-field wide" id="order-server-field" hidden><span data-i18n="orderServerLabel"></span><textarea name="server_environment" rows="2" maxlength="500" disabled></textarea><small data-i18n="orderServerHelp"></small></label>
+      </div><label class="order-check" id="order-server-ready-field" hidden><input type="checkbox" name="server_ready" disabled><span data-i18n="orderServerReady"></span></label></fieldset>
+      <p class="order-help" data-i18n="orderStartHelp"></p>
+      <label class="order-check"><input type="checkbox" name="details_confirmed" required><span data-i18n="orderConsent"></span></label>
+      <p class="order-error" id="order-error" role="alert" hidden></p>
+      <button type="submit" id="order-review" class="button orange" data-i18n="orderReview" disabled></button>
+    </form>
+    <aside class="order-preview" aria-labelledby="order-preview-title">
+      <h3 id="order-preview-title" data-i18n="orderPreviewTitle"></h3>
+      <p id="order-empty" data-i18n="orderEmpty"></p>
+      <div id="order-summary" hidden>
+        <p class="order-status" data-i18n="orderPrepared"></p>
+        <dl id="order-summary-list"></dl>
+        <p class="order-estimate" id="order-estimate"></p><p class="order-help" id="order-estimate-note"></p>
+        <a id="order-email" class="button" data-i18n="orderEmailAction"></a>
+        <button id="order-download" type="button" class="button" data-i18n="orderDownloadAction"></button>
+        <p class="order-help" data-i18n="orderSubmitHelp"></p>
+      </div>
+      <p class="order-help" data-i18n="orderPrivacy"></p>
+      <a class="order-help" href="https://edp-consulting.au/cloud-ops/pricing" target="_blank" rel="noopener" data-i18n="orderCalculator"></a>
+    </aside>
+  </div>
+</section>
