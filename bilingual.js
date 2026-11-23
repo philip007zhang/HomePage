@@ -32,8 +32,8 @@ const translations = {
     "zh": "跳到正文"
   },
   "draft": {
-    "en": "EDP CONSULTING <span> / Enterprise technology and AI delivery.</span>",
-    "zh": "EDP CONSULTING <span> / 企业技术与 AI 交付。</span>"
+    "en": "NEW · November 2026: Export to Xero, AU/NZ group consolidation and cloud subscriptions <span>/ See what’s new →</span>",
+    "zh": "新功能 · 2026 年 11 月：导出至 Xero、澳新集团合并报表、云订阅 <span>/ 查看更新 →</span>"
   },
   "navServices": {
     "en": "Services",
@@ -240,12 +240,12 @@ const translations = {
     "zh": "AI 操作受权限限制并留有审计记录；支持的草稿操作可在审批前复核或撤回，关键财务动作由人掌控。"
   },
   "f3Title": {
-    "en": "Migration with checks",
-    "zh": "迁移先试跑，余额先核对"
+    "en": "Data migration, step by step",
+    "zh": "数据迁移，分步进行"
   },
   "f3Body": {
-    "en": "Use supported Xero, MYOB or SAP export files for a trial import. Reconcile account and customer/supplier balances before agreeing a cutover date.",
-    "zh": "使用支持的 Xero、MYOB 或 SAP 导出文件试运行导入，先核对科目及往来余额，再约定正式切换日期。"
+    "en": "Start with stock only and check it against Xero, or trial-import supported Xero, MYOB or SAP export files. Balances are checked before you move to full accounting and agree a cutover date.",
+    "zh": "可以先只上库存，并与 Xero 的库存余额核对；也可以用 Xero、MYOB 或 SAP 的导出文件试运行导入。余额核对一致后，再转入完整账务并约定切换日期。"
   },
   "f4Title": {
     "en": "Payroll, people & Australian reporting",
@@ -296,8 +296,8 @@ const translations = {
     "zh": "月结助手"
   },
   "sourceNote": {
-    "en": "Based on the supplied product overview dated 6 November 2026. Feature availability, AI configuration, migration coverage and reporting arrangements are confirmed for each implementation. Statutory payroll outputs require accountant review before use.",
-    "zh": "以上依据您提供的 2026 年 11 月 6 日产品介绍整理。具体功能可用性、AI 配置、迁移范围与申报安排，在实施评估中确认；法定工资相关输出使用前须经会计师核对。"
+    "en": "Based on the DragonERP product overview dated 21 November 2026. Feature availability, AI configuration, migration coverage and reporting arrangements are confirmed for each implementation. Statutory payroll outputs require accountant review before use.",
+    "zh": "内容依据 2026 年 11 月 21 日的 DragonERP 产品介绍。功能范围、AI 配置、迁移范围和申报安排均按具体实施确认；法定薪资输出在使用前须经会计师复核。"
   },
   "focusEye": {
     "en": "A focused pilot direction",
@@ -388,8 +388,8 @@ const translations = {
     "zh": "让销售与操作人员一起验证：系统是否好用，维护信息是否切实可行。"
   },
   "processEye": {
-    "en": "How we could work together",
-    "zh": "怎样开始合作"
+    "en": "Getting started",
+    "zh": "如何开始"
   },
   "processTitle": {
     "en": "A small start.<br><em>A useful next step.</em>",
@@ -400,28 +400,28 @@ const translations = {
     "zh": "不必先写好完整的软件需求书。从一件经常困扰您的工作说起即可。"
   },
   "step0Title": {
-    "en": "Talk through the problem",
-    "zh": "梳理问题，按流程演示"
+    "en": "A walk-through",
+    "zh": "先看一遍演示"
   },
   "step0Body": {
-    "en": "Bring a recent example. Review the relevant purchasing, sales, reconciliation or month-end workflow together.",
-    "zh": "带来一个近期实例，一起了解相关采购、销售、对账或月结流程。"
+    "en": "See an order from China through landed cost and sales to the export for Xero.",
+    "zh": "看一张订单从中国采购，经过到岸成本和销售，一直走到导出至 Xero。"
   },
   "step1Title": {
-    "en": "Agree a focused pilot",
-    "zh": "确认范围，试运行核对"
+    "en": "Start with stock",
+    "zh": "先上库存"
   },
   "step1Body": {
-    "en": "Define the users, required data, responsibilities, fees and acceptance criteria. Where migration is needed, trial the supported exports and check balances.",
-    "zh": "明确用户、数据、分工、费用与验收标准；需要迁移时，先试导入支持的文件并核对余额。"
+    "en": "Import products and opening stock and check them against Xero’s stock balance. Your accountant’s work stays the same.",
+    "zh": "导入商品和期初库存，并与 Xero 库存余额核对。会计的工作方式不变。"
   },
   "step2Title": {
-    "en": "Plan the next step",
-    "zh": "验证效果，再确认上线"
+    "en": "An agreed plan",
+    "zh": "约定上线计划"
   },
   "step2Body": {
-    "en": "Review practical results, then confirm modules, integrations, reporting arrangements, training and any agreed cutover date.",
-    "zh": "回顾实际使用结果，再确认模块、集成、申报方式、培训及约定的切换日期。"
+    "en": "Confirm modules, the export or full accounting, and training, then set the cutover date.",
+    "zh": "确认模块、只做导出还是上完整账务，以及培训安排，然后确定切换日期。"
   },
   "faqEye": {
     "en": "A few useful questions",
@@ -452,16 +452,16 @@ const translations = {
     "zh": "可以从现有系统迁移吗？"
   },
   "a2": {
-    "en": "The supplied overview describes imports of supported Xero, MYOB and SAP export files. Start with a trial import and balance reconciliation; coverage and the cutover plan are agreed after checking the data.",
-    "zh": "资料介绍了对支持的 Xero、MYOB 和 SAP 导出文件的导入。先试运行、核对余额；检查数据后再约定迁移范围和切换安排。"
+    "en": "Yes. Start with stock only and check it against Xero, or trial-import supported Xero, MYOB or SAP export files and reconcile balances. Coverage and the cutover plan are agreed after checking your data.",
+    "zh": "可以。可以先只上库存并与 Xero 核对，也可以用 Xero、MYOB 或 SAP 的导出文件试运行导入并核对余额。迁移范围和切换计划在检查您的数据后约定。"
   },
   "q3": {
     "en": "What will it cost?",
     "zh": "费用如何确定？"
   },
   "a3": {
-    "en": "Pricing is to be confirmed for your agreed scope. Setup, pilot support, hosting and any ongoing services are clarified before work begins.",
-    "zh": "费用按约定范围确认。配置、试运行支持、托管及后续服务，会在开始前逐项说明。"
+    "en": "Cloud subscriptions are A$48.88 a month or A$488 a year per five users (excl. GST). An on-premises licence is A$1,888 one-off for 20 users (excl. GST). Implementation and migration are quoted after a walk-through.",
+    "zh": "云订阅每 5 位用户每月 A$48.88，或每年 A$488（未含 GST）；本地买断为一次性 A$1,888（未含 GST），含 20 位用户。实施与迁移在演示后另行报价。"
   },
   "contactEye": {
     "en": "Let’s talk about your workflow",
@@ -510,6 +510,526 @@ const translations = {
   "trademarks": {
     "en": "Third-party names identify products only. Their trademarks belong to their respective owners. DragonERP is not affiliated with, endorsed or sponsored by those vendors.",
     "zh": "第三方名称仅用于产品识别，相关商标归各自所有者。DragonERP 与这些厂商无关联，未获其认可或赞助。"
+  },
+  "navNew": {
+    "en": "What’s new",
+    "zh": "最新功能"
+  },
+  "navPricing": {
+    "en": "Pricing",
+    "zh": "价格与购买"
+  },
+  "heroPricing": {
+    "en": "Subscribe or buy <span aria-hidden=\"true\">↗</span>",
+    "zh": "订阅或购买 <span aria-hidden=\"true\">↗</span>"
+  },
+  "newEye": {
+    "en": "What’s new · November 2026",
+    "zh": "最新功能 · 2026 年 11 月"
+  },
+  "newTitle": {
+    "en": "New in DragonERP.<br><em>Dated and tested.</em>",
+    "zh": "DragonERP 新功能。<br><em>有日期，有测试。</em>"
+  },
+  "newIntro": {
+    "en": "Recent work across DragonERP and DragonERP Cloud, with its status. Your accountant can stay on Xero while DragonERP runs China purchasing, landed cost and a bilingual warehouse.",
+    "zh": "DragonERP 与 DragonERP 云服务的近期进展及当前状态。您的会计可以继续使用 Xero，DragonERP 负责中国采购、到岸成本和中英双语仓库。"
+  },
+  "statusDone": {
+    "en": "Delivered",
+    "zh": "已交付"
+  },
+  "statusShipped": {
+    "en": "Shipped 16 Nov",
+    "zh": "11 月 16 日上线"
+  },
+  "statusProgress": {
+    "en": "In progress",
+    "zh": "开发中"
+  },
+  "statusCloud": {
+    "en": "Pricing live",
+    "zh": "价格已上线"
+  },
+  "n0Title": {
+    "en": "Export to Xero, phase 1",
+    "zh": "导出至 Xero（第一阶段）"
+  },
+  "n0Body": {
+    "en": "Each month, export invoices, bills and an inventory journal to Xero with a control sheet and fingerprint. Any difference blocks the export, so your accountant keeps working in Xero.",
+    "zh": "每月将销售发票、采购账单和库存凭证导出到 Xero，并附核对表和指纹校验；只要有差异就不允许导出，会计继续在 Xero 中工作。"
+  },
+  "n1Title": {
+    "en": "AU/NZ group consolidation",
+    "zh": "澳新集团合并报表"
+  },
+  "n1Body": {
+    "en": "Record intercompany once, eliminate only balances that reconcile, remove profit still sitting in group stock and translate NZD. Group adjustments carry a reason; company books are never rewritten.",
+    "zh": "内部交易只录一次；只抵销能对上的余额；剔除仍留在集团库存中的未实现利润，并折算纽币。集团调整逐笔注明原因，不改写各公司账簿。"
+  },
+  "n2Title": {
+    "en": "Stock-first setup",
+    "zh": "先上库存"
+  },
+  "n2Body": {
+    "en": "Start with products and opening stock only, checked against Xero’s stock balance, before full accounting. The opening-stock import loads all rows or none.",
+    "zh": "先只导入商品和期初库存，并与 Xero 库存余额核对，不必一开始就上完整账务。期初库存导入要么全部成功，要么一行都不写入。"
+  },
+  "n3Title": {
+    "en": "Smart query",
+    "zh": "智能查询"
+  },
+  "n3Body": {
+    "en": "Ask in English or Chinese. AI writes a query specification, never SQL; it runs read-only and is checked against the standard report. Pin the queries you use often.",
+    "zh": "用中文或英文提问。AI 只生成查询规格，不写 SQL；查询只读执行，并与标准报表交叉核对。常用查询可以固定。"
+  },
+  "n4Title": {
+    "en": "Bill capture on your server",
+    "zh": "本地服务器单据识别"
+  },
+  "n4Body": {
+    "en": "On-server OCR turns a photo or PDF into a draft bill, matched line by line to the purchase order and goods received. Differences go to a person.",
+    "zh": "在您自己的服务器上用 OCR 把照片或 PDF 转为采购账单草稿，并与采购订单、收货逐行三单匹配；差异交由人工处理。"
+  },
+  "n5Title": {
+    "en": "DragonERP Cloud subscriptions",
+    "zh": "DragonERP 云订阅"
+  },
+  "n5Body": {
+    "en": "Hosted DragonERP with a separate database per customer, encrypted backups with restore checks and secure card binding through Stripe. Self-service sign-up is being prepared; until then we set you up personally.",
+    "zh": "托管版 DragonERP：每位客户独立数据库，加密备份并定期做恢复检查，通过 Stripe 安全绑定付款方式。自助开通正在准备中，目前由我们为您人工开通。"
+  },
+  "newNext": {
+    "en": "<strong>Next:</strong> MYOB export (phase 2), an accountant console, and a full-month import test in a Xero trial organisation.",
+    "zh": "<strong>下一步：</strong>导出至 MYOB（第二阶段）、会计师控制台，以及在 Xero 试用组织中进行整月导入测试。"
+  },
+  "proof0Label": {
+    "en": "backend unit and integration tests passed in a full run (19 Nov 2026)",
+    "zh": "后端单元与集成测试全部通过（2026 年 11 月 19 日全量运行）"
+  },
+  "proof1Label": {
+    "en": "end-to-end browser scenarios passed, including stock-first setup and Export to Xero (18 Nov 2026)",
+    "zh": "端到端浏览器场景全部通过，含“先上库存”与导出至 Xero（2026 年 11 月 18 日）"
+  },
+  "proof2Label": {
+    "en": "trial balance P95 on 10 million ledger lines, down from 25.6 s (13 Nov 2026, synthetic data)",
+    "zh": "一千万行总账上试算平衡表 P95 用时，此前为 25.6 秒（2026 年 11 月 13 日，合成数据）"
+  },
+  "newNote": {
+    "en": "Export to Xero is a file import, not an API link; DragonERP does not lodge directly with the ATO. Group consolidation covers management consolidation of wholly owned AU and NZ companies; equity elimination, goodwill and deferred tax remain with your accountant. Capabilities and timeframes are confirmed during evaluation. Full test records on request.",
+    "zh": "导出至 Xero 为文件导入，不是 API 直连；DragonERP 不直接向 ATO 申报。集团合并适用于全资澳新公司的管理口径合并；权益抵销、商誉和递延所得税仍由会计师处理。功能与时间以评估确认为准，完整测试记录可按需提供。"
+  },
+  "pricingEye": {
+    "en": "Pricing · subscribe or buy",
+    "zh": "价格 · 订阅或购买"
+  },
+  "pricingTitle": {
+    "en": "Clear pricing.<br><em>Subscribe or own it.</em>",
+    "zh": "价格清楚。<br><em>订阅，或买断。</em>"
+  },
+  "pricingIntro": {
+    "en": "All prices in Australian dollars, excluding GST (10%). Cloud subscriptions are counted in blocks of five contract users, up to 50 users.",
+    "zh": "所有价格以澳元计价，均不含 GST（10%）。云订阅每五位合同用户为一个计价单位，最多 50 人。"
+  },
+  "planMonthlyName": {
+    "en": "Cloud · monthly",
+    "zh": "云订阅 · 月付"
+  },
+  "planMonthlyUnit": {
+    "en": "per month, per 5 users",
+    "zh": "每月 / 每 5 位用户"
+  },
+  "planYearlyName": {
+    "en": "Cloud · yearly",
+    "zh": "云订阅 · 年付"
+  },
+  "planYearlyUnit": {
+    "en": "per year, per 5 users",
+    "zh": "每年 / 每 5 位用户"
+  },
+  "planYearlyBadge": {
+    "en": "Save about 17%",
+    "zh": "约省 17%"
+  },
+  "planLicenceName": {
+    "en": "On-premises licence",
+    "zh": "本地买断"
+  },
+  "planLicenceUnit": {
+    "en": "one-off, 20 users",
+    "zh": "一次性 / 20 位用户"
+  },
+  "exGst": {
+    "en": "excl. GST",
+    "zh": "未含 GST"
+  },
+  "planMonthly0": {
+    "en": "Hosted by EDP, separate database per customer",
+    "zh": "EDP 托管，每位客户独立数据库"
+  },
+  "planMonthly1": {
+    "en": "Encrypted backups with restore checks",
+    "zh": "加密备份并做恢复检查"
+  },
+  "planMonthly2": {
+    "en": "Three-month trial after card binding and activation",
+    "zh": "绑定付款方式并开通后，可试用三个自然月"
+  },
+  "planYearly0": {
+    "en": "Everything in the monthly plan",
+    "zh": "包含月付的全部内容"
+  },
+  "planYearly1": {
+    "en": "One payment a year instead of twelve",
+    "zh": "一年付一次，免去每月扣款"
+  },
+  "planYearly2": {
+    "en": "About 17% less than 12 monthly payments",
+    "zh": "比按月付 12 个月约省 17%"
+  },
+  "planLicence0": {
+    "en": "Runs on your own server",
+    "zh": "部署在您自己的服务器上"
+  },
+  "planLicence1": {
+    "en": "Local AI model options; your data stays with you",
+    "zh": "可选本地 AI 模型，数据留在您手中"
+  },
+  "planLicence2": {
+    "en": "Includes the first 12 months of updates; extra users A$18 each",
+    "zh": "含首 12 个月更新；超过 20 人每人 A$18 加购"
+  },
+  "planLicence3": {
+    "en": "Installation, migration and support quoted separately",
+    "zh": "安装、迁移与支持另行报价"
+  },
+  "ctaSubscribe": {
+    "en": "Subscribe <span aria-hidden=\"true\">↗</span>",
+    "zh": "立即订阅 <span aria-hidden=\"true\">↗</span>"
+  },
+  "ctaSubscribeYearly": {
+    "en": "Subscribe yearly <span aria-hidden=\"true\">↗</span>",
+    "zh": "按年订阅 <span aria-hidden=\"true\">↗</span>"
+  },
+  "ctaBuy": {
+    "en": "Buy a licence <span aria-hidden=\"true\">↗</span>",
+    "zh": "采购软件 <span aria-hidden=\"true\">↗</span>"
+  },
+  "pricingNote": {
+    "en": "Subscribe opens the live price calculator in DragonERP Cloud. Self-service sign-up is being prepared, so orders are currently confirmed with you personally. Buy a licence opens an email to Philip. Implementation and data migration are not included and are quoted after a walk-through; final pricing per quote.",
+    "zh": "“立即订阅”会打开 DragonERP 云服务的实时价格计算器；自助开通正在准备中，目前订单由我们与您人工确认。“采购软件”会打开写给 Philip 的邮件。实施与数据迁移不含在内，演示后另行报价，最终价格以报价为准。"
+  },
+  "q4": {
+    "en": "How do I subscribe or buy?",
+    "zh": "如何订阅或采购？"
+  },
+  "a4": {
+    "en": "Choose a plan under <a href=\"#pricing\">Pricing</a>. Subscribe opens the DragonERP Cloud price calculator; Buy a licence opens an email to Philip. We confirm the order, terms and start date with you before anything is charged.",
+    "zh": "在<a href=\"#pricing\">价格与购买</a>中选择方案。“立即订阅”打开 DragonERP 云服务价格计算器；“采购软件”打开写给 Philip 的邮件。在任何扣款之前，我们会先与您确认订单、条款和开始日期。"
+  },
+  "xpEye": {
+    "en": "Track record",
+    "zh": "过往经历"
+  },
+  "xpTitle": {
+    "en": "Decades of enterprise IT.<br><em>Now built for smaller teams.</em>",
+    "zh": "数十年企业级 IT 经验。<br><em>如今为中小团队所用。</em>"
+  },
+  "xpIntro": {
+    "en": "Before DragonERP, Philip spent his career in SAP architecture, system migration and enterprise transformation for large organisations in Asia, Australia and Europe. That experience shapes how DragonERP handles ledgers, migration and control.",
+    "zh": "在开发 DragonERP 之前，Philip 长期从事 SAP 架构、系统迁移与企业转型，服务亚洲、澳洲和欧洲的大型企业。这些经验直接体现在 DragonERP 的账务设计、数据迁移和内控方式上。"
+  },
+  "xpRolesTitle": {
+    "en": "Selected roles",
+    "zh": "代表性职位"
+  },
+  "xpR0": {
+    "en": "Business Unit Director: built the business unit and owned delivery, growth and service quality.",
+    "zh": "业务单元总监：负责业务单元的建设、交付、增长与服务质量。"
+  },
+  "xpR1": {
+    "en": "Transformation Director: SAP transformation and data migration programmes, including system landscape consolidation.",
+    "zh": "转型总监：负责 SAP 转型与数据迁移项目，包括系统架构整合。"
+  },
+  "xpR2": {
+    "en": "Principal Solution Architect and consultant across global projects and migrations.",
+    "zh": "首席解决方案架构师及顾问，参与多个全球项目与系统迁移。"
+  },
+  "xpR3": {
+    "en": "Founded in 1998: SAP consulting, development services and analytical software.",
+    "zh": "1998 年创立：SAP 咨询、开发服务与分析软件。"
+  },
+  "xpR4": {
+    "en": "Information technology studies.",
+    "zh": "德国达姆施塔特工业大学，信息技术专业学习。"
+  },
+  "xpProjectsTitle": {
+    "en": "Selected projects",
+    "zh": "代表性项目"
+  },
+  "xpP0Title": {
+    "en": "SAP system consolidation",
+    "zh": "SAP 系统整合"
+  },
+  "xpP0Body": {
+    "en": "Four years on CNPC’s SAP system consolidation: from business development with top IT management on the 12th Five-Year Plan direction to trusted advisor through delivery.",
+    "zh": "参与中国石油（CNPC）SAP 系统整合项目四年：从配合高层制定“十二五”IT 方向的业务拓展，到贯穿交付全程的信任顾问。"
+  },
+  "xpP1Title": {
+    "en": "S/4HANA migration & SLO",
+    "zh": "S/4HANA 迁移与 SLO 转型"
+  },
+  "xpP1Body": {
+    "en": "Company-code, system and landscape transformations with a focus on reducing downtime and keeping balances reconciled through cutover.",
+    "zh": "公司代码、系统与架构层面的转型迁移，重点在缩短停机时间，并保证切换前后余额一致。"
+  },
+  "xpP2Title": {
+    "en": "Enterprise SAP programmes",
+    "zh": "大型企业 SAP 项目"
+  },
+  "xpP2Body": {
+    "en": "Client work across China, Singapore, Australia, Germany and France in manufacturing, automotive, consumer goods and energy, including global rollouts.",
+    "zh": "客户覆盖中国、新加坡、澳大利亚、德国和法国，涉及制造、汽车、消费品和能源行业，包括全球推广项目。"
+  },
+  "xpP3Title": {
+    "en": "Software built with AI agents",
+    "zh": "与 AI agents 协同开发的软件"
+  },
+  "xpP3Body": {
+    "en": "DragonERP and DragonERP Cloud, plus an OCR schedule converter for a rehabilitation provider, a feedback and evaluation portal, a realtime voice-agent prototype and a WeChat Mini Program.",
+    "zh": "DragonERP 与 DragonERP 云服务；另有康复机构的 OCR 排程转换工具、问卷与评估平台、实时语音助手原型，以及微信小程序。"
+  },
+  "xpLangs": {
+    "en": "Works in Chinese, German and English.",
+    "zh": "中文、德语、英语均可工作交流。"
+  },
+  "xpLink": {
+    "en": "Full profile and ERP articles on LinkedIn <span aria-hidden=\"true\">↗</span>",
+    "zh": "在领英查看完整履历与 ERP 系列文章 <span aria-hidden=\"true\">↗</span>"
+  },
+  "navExperience": {
+    "en": "Experience",
+    "zh": "过往经历"
+  },
+  "dlEye": {
+    "en": "Learn more · downloads",
+    "zh": "了解更多 · 资料下载"
+  },
+  "dlTitle": {
+    "en": "Product materials<br><em>to download.</em>",
+    "zh": "产品资料，<br><em>随时下载。</em>"
+  },
+  "dlIntro": {
+    "en": "PDFs to read later or share with your accountant or business partner.",
+    "zh": "PDF 格式，方便稍后阅读，或转给您的会计和合作伙伴。"
+  },
+  "dl0Title": {
+    "en": "One-page overview",
+    "zh": "一页介绍"
+  },
+  "dl0Meta": {
+    "en": "What DragonERP does, the latest progress and how to get started, on one page.",
+    "zh": "一页看懂 DragonERP 的功能、最新进展和如何开始。"
+  },
+  "dl1Title": {
+    "en": "Double-sided overview",
+    "zh": "双面彩页"
+  },
+  "dl1Meta": {
+    "en": "The full purchase-to-tax process, pricing and a three-year cost comparison.",
+    "zh": "从采购到报税的完整流程、价格及三年成本对比。"
+  },
+  "dl2Title": {
+    "en": "Group consolidation",
+    "zh": "集团合并报表"
+  },
+  "dl2Meta": {
+    "en": "How one ledger design consolidates several AU and NZ companies.",
+    "zh": "一套账务设计，如何合并多家澳新公司的报表。"
+  },
+  "dl3Title": {
+    "en": "Product white paper",
+    "zh": "产品白皮书"
+  },
+  "dl3Meta": {
+    "en": "Architecture, modules, AI controls and test results in depth.",
+    "zh": "深入介绍架构、模块、AI 管控与测试结果。"
+  },
+  "dlEn": {
+    "en": "English",
+    "zh": "英文版"
+  },
+  "dlZh": {
+    "en": "中文",
+    "zh": "中文版"
+  },
+  "dlSoon": {
+    "en": "中文 · coming soon",
+    "zh": "中文版 · 即将推出"
+  },
+  "navDownloads": {
+    "en": "Downloads",
+    "zh": "资料下载"
+  },
+  "feedbackTop": {
+    "en": "Questions, feedback or a complaint? Tell us →",
+    "zh": "有疑问、反馈或投诉？告诉我们 →"
+  },
+  "fbEye": {
+    "en": "Questions, feedback & complaints",
+    "zh": "咨询、反馈与投诉"
+  },
+  "fbTitle": {
+    "en": "A question or a problem?<br><em>Tell Philip directly.</em>",
+    "zh": "有疑问，或哪里不好用？<br><em>直接告诉 Philip。</em>"
+  },
+  "fbIntro": {
+    "en": "Ask a question, report a bug or an inconvenient step, or make a complaint about DragonERP, DragonERP Cloud or this website. Every message is read by Philip, and you get a personal reply.",
+    "zh": "关于 DragonERP、DragonERP 云服务或本网站，无论是咨询问题、遇到故障、操作不便，还是任何不满意，都可以在这里提出。每条留言都由 Philip 本人阅读并亲自回复。"
+  },
+  "fbTypeLabel": {
+    "en": "Type",
+    "zh": "类型"
+  },
+  "fbTypeQuestion": {
+    "en": "Question",
+    "zh": "咨询问题"
+  },
+  "fbTypeBug": {
+    "en": "Something is not working",
+    "zh": "功能故障 / 报错"
+  },
+  "fbTypeUx": {
+    "en": "Inconvenient to use",
+    "zh": "操作不便"
+  },
+  "fbTypeComplaint": {
+    "en": "Complaint",
+    "zh": "投诉"
+  },
+  "fbTypeIdea": {
+    "en": "Suggestion",
+    "zh": "建议"
+  },
+  "fbProductLabel": {
+    "en": "About",
+    "zh": "涉及"
+  },
+  "fbProductErp": {
+    "en": "DragonERP",
+    "zh": "DragonERP"
+  },
+  "fbProductCloud": {
+    "en": "DragonERP Cloud / billing",
+    "zh": "DragonERP 云服务 / 账单"
+  },
+  "fbProductWeb": {
+    "en": "This website",
+    "zh": "本网站"
+  },
+  "fbMessageLabel": {
+    "en": "Your question or what happened",
+    "zh": "您的问题或具体情况"
+  },
+  "fbMessageHint": {
+    "en": "For a problem: what were you doing, what did you expect, and what happened instead?",
+    "zh": "如果是问题：您当时在做什么？原本期望什么结果？实际发生了什么？"
+  },
+  "fbNameLabel": {
+    "en": "Your name or company (optional)",
+    "zh": "姓名或公司（选填）"
+  },
+  "fbSubmit": {
+    "en": "Send <span aria-hidden=\"true\">↗</span>",
+    "zh": "提交 <span aria-hidden=\"true\">↗</span>"
+  },
+  "fbNote": {
+    "en": "Sending opens your own email app with the message filled in; nothing is stored on this website. Screenshots can be attached there. Or email <a href=\"mailto:philip.zhang@edp-consulting.au\">philip.zhang@edp-consulting.au</a> directly.",
+    "zh": "提交后会打开您自己的邮件应用并自动填好内容，本网站不保存任何信息；截图可在邮件中附上。也可以直接发邮件至 <a href=\"mailto:philip.zhang@edp-consulting.au\">philip.zhang@edp-consulting.au</a>。"
+  },
+  "fbEmpty": {
+    "en": "Please write your question or what happened first.",
+    "zh": "请先填写您的问题或具体情况。"
+  },
+  "dim0": {
+    "en": "Integration",
+    "zh": "业财一体化"
+  },
+  "dim1": {
+    "en": "Data volume",
+    "zh": "数据量"
+  },
+  "dim2": {
+    "en": "Concurrency",
+    "zh": "并发"
+  },
+  "dim3": {
+    "en": "Permissions",
+    "zh": "权限"
+  },
+  "dim4": {
+    "en": "Multi-company",
+    "zh": "多公司合并"
+  },
+  "dim5": {
+    "en": "Interfaces",
+    "zh": "接口"
+  },
+  "dim6": {
+    "en": "Audit",
+    "zh": "审计"
+  },
+  "dim7": {
+    "en": "Functions",
+    "zh": "功能"
+  },
+  "dim8": {
+    "en": "AU compliance",
+    "zh": "本地合规"
+  },
+  "dim9": {
+    "en": "Ease of use",
+    "zh": "易用性"
+  },
+  "dim10": {
+    "en": "Cost",
+    "zh": "成本"
+  },
+  "dim11": {
+    "en": "Data sovereignty",
+    "zh": "数据主权"
+  },
+  "cmpAvgName": {
+    "en": "Average of the five",
+    "zh": "五家平均"
+  },
+  "cmpEye": {
+    "en": "How we compare",
+    "zh": "横向对比"
+  },
+  "cmpTitle": {
+    "en": "Twelve dimensions.<br><em>Six ERP architectures.</em>",
+    "zh": "十二个维度，<br><em>六种 ERP 架构。</em>"
+  },
+  "cmpIntro": {
+    "en": "Each system is scored 1 to 5 on what a 5–100 person business needs from an ERP. The slides change every five seconds; hover or tap to pause.",
+    "zh": "按 5 至 100 人企业对 ERP 的实际需求，每个系统在每个维度上打 1 至 5 分。每五秒切换一张，鼠标悬停或点按即可暂停。"
+  },
+  "cmpLegendDragon": {
+    "en": "Dragon ERP",
+    "zh": "Dragon ERP"
+  },
+  "cmpCaption": {
+    "en": "12 dimensions, 1–5 each, out of 60",
+    "zh": "12 个维度，每项 1–5 分，满分 60"
+  },
+  "cmpSource": {
+    "en": "Six ERP architectures compared on what a 5–100 person business needs. Source: Philip Zhang, “ERP Architecture for Small and Medium Businesses”, 16 Nov 2026; competitors scored from public documentation and the author’s estimates; product maturity excluded. Dragon ERP multi-company raised from 2 to 4 after group consolidation shipped on 16 Nov. Third-party names identify products only.",
+    "zh": "六种 ERP 架构，按 5 至 100 人企业的实际需求对比。来源：Philip Zhang《中小企业 ERP 架构：需求推导与六种架构对比》（2026 年 11 月 16 日）；竞品依据公开资料及作者估计评分，不含产品成熟度。11 月 16 日集团合并上线后，Dragon ERP“多公司合并”由 2 分调为 4 分。第三方名称仅用于产品识别。"
+  },
+  "navCompare": {
+    "en": "Compare",
+    "zh": "横向对比"
   }
 };
 
@@ -534,3 +1054,31 @@ function setLanguage(lang,remember=true){
 document.querySelectorAll('[data-lang]').forEach(el=>el.addEventListener('click',()=>setLanguage(el.dataset.lang)));
 let initial='en';try{initial=localStorage.getItem('dragonerp-language')||'en';}catch{}
 setLanguage(initial,false);
+
+const fbForm=document.getElementById('feedback-form');
+if(fbForm){fbForm.addEventListener('submit',event=>{event.preventDefault();
+  const data=new FormData(fbForm);const message=(data.get('message')||'').trim();const error=fbForm.querySelector('.fb-error');
+  if(!message){error.hidden=false;fbForm.message.focus();return;}error.hidden=true;
+  const pick=name=>fbForm[name].options[fbForm[name].selectedIndex].text;
+  const subject='[Website] '+pick('type')+' · '+pick('product');
+  const body=message+'\n\n—\n'+pick('type')+' · '+pick('product')+(data.get('name')?'\n'+data.get('name'):'')+'\nPage: '+location.href;
+  location.href='mailto:'+fbForm.dataset.to+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);fbDialog.close();});}
+const fbDialog=document.getElementById('feedback');
+function openFeedback(){if(fbDialog&&!fbDialog.open){fbDialog.showModal();fbForm.querySelector('select').focus();}}
+document.querySelectorAll('a[href="#feedback"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();openFeedback();}));
+if(fbDialog){fbDialog.querySelector('.fb-close').addEventListener('click',()=>fbDialog.close());
+  fbDialog.addEventListener('click',e=>{if(e.target===fbDialog)fbDialog.close();});}
+if(location.hash==='#feedback')openFeedback();
+
+(()=>{const root=document.getElementById('cmp-carousel');if(!root)return;
+const slides=[...root.querySelectorAll('.cmp-slide')],dots=[...root.querySelectorAll('.cmp-dot')];let i=0,timer=null,paused=false;
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function show(n){i=(n+slides.length)%slides.length;slides.forEach((s,k)=>s.classList.toggle('active',k===i));dots.forEach((d,k)=>d.classList.toggle('active',k===i));}
+function start(){stop();if(!reduce&&!paused)timer=setInterval(()=>show(i+1),5000);}
+function stop(){if(timer)clearInterval(timer);timer=null;}
+root.querySelector('.prev').addEventListener('click',()=>{show(i-1);start();});
+root.querySelector('.next').addEventListener('click',()=>{show(i+1);start();});
+dots.forEach((d,k)=>d.addEventListener('click',()=>{show(k);start();}));
+root.addEventListener('mouseenter',()=>{paused=true;stop();});root.addEventListener('mouseleave',()=>{paused=false;start();});
+root.querySelector('.cmp-stage').addEventListener('click',()=>{paused=!paused;paused?stop():start();});
+document.addEventListener('visibilitychange',()=>document.hidden?stop():start());start();})();
