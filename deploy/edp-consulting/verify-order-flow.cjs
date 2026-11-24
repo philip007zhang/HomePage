@@ -68,9 +68,11 @@ const server = http.createServer((req, res) => {
       await page.locator('#pricing').screenshot({path:path.join(output,language+'-pricing.png')});
       await form.screenshot({path:path.join(output,language+'-form.png')});
       const other=language==='en'?'zh':'en';
+      await page.keyboard.press('Escape');
+      assert.equal(await page.locator('#order-dialog').evaluate(d=>d.open),false,'Escape closes the order dialog');
       await page.locator(`[data-lang="${other}"]`).click();
       assert.equal(await form.locator('[name="company"]').inputValue(),values.company,'Language switch must retain typed details');
-      assert.equal(await page.locator('#order-summary').isVisible(),true);
+      assert.equal(await page.locator('#order-summary').evaluate(e=>!e.hidden),true);
       await page.locator(`[data-lang="${language}"]`).click();
       await page.locator('[data-order-plan="yearly"]').click();
       assert.equal(await page.locator('#order-summary').isVisible(),false,'Plan change invalidates old review');
@@ -79,6 +81,7 @@ const server = http.createServer((req, res) => {
       assert.equal(yearly.activation.trial_calendar_months,0);
       assert.equal(yearly.activation.payment_before_activation,true);
       assert.equal(yearly.estimate.total_cents,107360);
+      await page.keyboard.press('Escape');
       await page.locator('[data-order-plan="buyout"]').click();
       await page.locator('#order-review').click();
       assert.equal(await page.locator('#order-summary').isVisible(),false,'On-premises server readiness is required');

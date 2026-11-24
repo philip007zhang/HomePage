@@ -167,3 +167,16 @@
   updatePlan();
   document.getElementById('order-review').disabled = false;
 })();
+/* order dialog */
+(() => {
+  const dialog = document.getElementById('order-dialog');
+  if (!dialog) return;
+  const open = () => { if (!dialog.open) dialog.showModal(); dialog.scrollTop = 0; };
+  document.querySelectorAll('a[href="#order"]').forEach(link => link.addEventListener('click', event => {
+    event.preventDefault();
+    open();
+  }));
+  dialog.querySelector('.order-close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  if (location.hash === '#order') open();
+})();

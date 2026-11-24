@@ -716,8 +716,8 @@ const translations = {
     "zh": "填写买断开通资料 <span aria-hidden=\"true\">↗</span>"
   },
   "pricingNote": {
-    "en": "Prepare the opening details below before confirming your order. Orders and payment arrangements are currently confirmed with you by email; this page does not collect payment or automatically deploy a system. Installation and migration are quoted separately. Final amounts are confirmed with your order.",
-    "zh": "请先填写下方开通资料，再确认订单。目前订单与付款安排仍由我们通过邮件与您确认；本页不收取款项，也不会自动部署系统。安装与迁移另行报价，最终金额以确认订单为准。"
+    "en": "Use the button under a plan to open the opening-details form before confirming your order. Orders and payment arrangements are currently confirmed with you by email; this page does not collect payment or automatically deploy a system. Installation and migration are quoted separately. Final amounts are confirmed with your order.",
+    "zh": "点击方案下方的按钮，即可打开开通资料表格，填写后再确认订单。目前订单与付款安排仍由我们通过邮件与您确认；本页不收取款项，也不会自动部署系统。安装与迁移另行报价，最终金额以确认订单为准。"
   },
   "q4": {
     "en": "How do I subscribe or buy?",
